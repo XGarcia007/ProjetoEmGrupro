@@ -1,0 +1,47 @@
+﻿@model IEnumerable<Testeprojeto.Models.Contato>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Contato</h1>
+
+<p>
+    <a asp-action="Create">Criar Novo</a>
+</p>
+<table class="minhaTabela">
+    <thead>
+        <tr>
+            <th class="texth ">
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Celular)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Observacao)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Celular)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Observacao)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.ContatoId">Editar</a> |
+                <a asp-action="Details" asp-route-id="@item.ContatoId">Detalhes</a> |
+                <a asp-action="Delete" asp-route-id="@item.ContatoId">Excluir</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

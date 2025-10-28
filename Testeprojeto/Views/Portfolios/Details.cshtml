@@ -1,0 +1,48 @@
+﻿@model Testeprojeto.Models.Portfolio
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Detalhes</h1>
+
+<div>
+    <h4>Portfolio</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Servicos)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Servicos)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Descricao)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Descricao)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Missao)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Missao)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Valores)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Valores)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Visao)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Visao)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.PorfolioId">Edit</a> |
+    <a asp-action="Index">Voltar para o início</a>
+</div>
