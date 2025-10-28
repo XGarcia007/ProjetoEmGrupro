@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Leonardo Garcia\\Desktop\\BackAnd\\MVC\\Testeprojeto\\Testeprojeto\\Testeprojeto.csproj": {}
+    "C:\\Users\\Matheus Correa\\Desktop\\ProjetoEmGrupro\\Testeprojeto\\Testeprojeto.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Leonardo Garcia\\Desktop\\BackAnd\\MVC\\Testeprojeto\\Testeprojeto\\Testeprojeto.csproj": {
+    "C:\\Users\\Matheus Correa\\Desktop\\ProjetoEmGrupro\\Testeprojeto\\Testeprojeto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Leonardo Garcia\\Desktop\\BackAnd\\MVC\\Testeprojeto\\Testeprojeto\\Testeprojeto.csproj",
+        "projectUniqueName": "C:\\Users\\Matheus Correa\\Desktop\\ProjetoEmGrupro\\Testeprojeto\\Testeprojeto.csproj",
         "projectName": "Testeprojeto",
-        "projectPath": "C:\\Users\\Leonardo Garcia\\Desktop\\BackAnd\\MVC\\Testeprojeto\\Testeprojeto\\Testeprojeto.csproj",
-        "packagesPath": "C:\\Users\\Leonardo Garcia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Leonardo Garcia\\Desktop\\BackAnd\\MVC\\Testeprojeto\\Testeprojeto\\obj\\",
+        "projectPath": "C:\\Users\\Matheus Correa\\Desktop\\ProjetoEmGrupro\\Testeprojeto\\Testeprojeto.csproj",
+        "packagesPath": "C:\\Users\\Matheus Correa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Matheus Correa\\Desktop\\ProjetoEmGrupro\\Testeprojeto\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Leonardo Garcia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Matheus Correa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -70,6 +70,10 @@
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
               "version": "[8.0.15, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.7, )"
             }
           },
           "imports": [
